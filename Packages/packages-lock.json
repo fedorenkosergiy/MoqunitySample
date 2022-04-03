@@ -92,11 +92,11 @@
       }
     },
     "fedorenkosergiy.moqunity": {
-      "version": "https://github.com/fedorenkosergiy/Moqunity.git#develop",
+      "version": "https://github.com/fedorenkosergiy/Moqunity.git#93e94fd24df8b5e55bdaf62cf73a4da971a14f2d",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "b841b3974af6ba2e7ac753c87db9d993143a7443"
+      "hash": "93e94fd24df8b5e55bdaf62cf73a4da971a14f2d"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
