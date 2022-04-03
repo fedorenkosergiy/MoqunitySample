@@ -5,12 +5,12 @@ public class SimpleFpsCounter : MonoBehaviour
 {
     private const int LastFramesCount = 10;
 
-    private Time Time = Moqunity.Context.Factory.Time;
-
     private float[] lastFrames = new float[LastFramesCount];
     private float lastSum = 0.0f;
 
     public float FpsAvg10 { get; private set; }
+
+    private Time Time { get; } = Moqunity.Context.Factory.Time;
 
     private void Update()
     {
